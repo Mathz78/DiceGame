@@ -1,4 +1,8 @@
 /* HTML Elements */
+html, body {
+    height:100%;
+}
+
 button {
     margin-left: 46%;
     margin-right: 46%;
@@ -44,3 +48,19 @@ body {
 }
 
 /* Footer Section */
+
+.footerDiv {
+    color: white;
+    font-family: 'Oxanium', cursive;
+    background-color: #393e46;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align: center;
+}
+
+.footer-link {
+    font-size: 18px;
+    margin: 0 2% 0 2%;
+    text-decoration: none;  
+}
