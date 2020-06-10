@@ -1,0 +1,1 @@
+Welcome, i am doing this game to practice my skills with JavaScript that i learned.
