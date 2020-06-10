@@ -14,21 +14,23 @@
     </head>
     <body>
         <h1>The Dice Game</h1>
-
+        <h2 id="tie">Tie!!</h2>
         <div class="row gameTable">
             <div class="col-6 firstPlayer">
-                <h2>Player One</h2>
-                <img src="images/dice6.png" alt="dicePicture">
+                <h2 id="playerOneH2">Player One</h2>
+                <img src="images/dice6.png" alt="dicePicture" id="playerOne">
             </div>
             <div class="col-6 secondPlayer">
-                <h2>Player Two</h2>
-                <img src="images/dice6.png" alt="dicePicture">
+                <h2 id="playerTwoH2">Player Two</h2>
+                <img src="images/dice6.png" alt="dicePicture" id="playerTwo">
             </div>
           </div>
 
-          <button class="btn btn-info" onclick="buttonRefresh();">Click to Refresh</button>
+          <button class="btn btn-info btn-lg" onclick="playButton();">Click to Play</button>
         </div>  
-
+        <div class="footerDiv">
+            
+        </div>
         <script src="js/scripts.js"></script>
     </body>
 </html> 

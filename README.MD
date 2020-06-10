@@ -16,6 +16,6 @@ To-Do List:
     * [X] - Add Images
     * [X] - Put a button to refresh the page
 * [X] - Edit JavaScript
-    * [ ] - Change the images everytime that the pages reload
-    * [ ] - Add a Win Flag in the winner player.
+    * [X] - Change the images everytime that the pages reload
+    * [X] - Add a Win Flag in the winner player.
 * [ ] - Create the footer
