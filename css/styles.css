@@ -1,5 +1,40 @@
-/* Header Section */
+/* HTML Elements */
+button {
+    margin-left: 46%;
+    margin-right: 46%;
+}
 
+/* Header Section */
+h1 {
+    color: #32e0c4;
+    text-align: center;
+    font-family: 'Piedra', cursive;
+    font-size: 5rem;    
+}
+
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #32e0c4;
+}
 
 /* Body Section */
 
+body {
+    background-color: #393e46;
+}
+
+.gameTable {
+    margin: 3%;
+    font-family: 'Exo', sans-serif;
+    font-style: italic;
+}
+
+.firstPlayer {
+    text-align: center;
+    padding-left: 20%;
+}
+
+.secondPlayer {
+    text-align: center;
+    padding-right: 20%;
+}
