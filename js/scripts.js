@@ -1,3 +1,3 @@
 function buttonRefresh () {
-    location.reload();
+    location.reload(true);
 }
