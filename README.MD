@@ -18,4 +18,4 @@ To-Do List:
 * [X] - Edit JavaScript
     * [X] - Change the images everytime that the pages reload
     * [X] - Add a Win Flag in the winner player.
-* [ ] - Create the footer
+* [X] - Create the footer
