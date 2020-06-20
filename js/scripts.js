@@ -15,34 +15,10 @@ function playButton () {
     console.log(playerOne, playerTwo);
 
     // Verify Winner
-    if (playerOne === 1) {
-        document.getElementById("playerOne").src = "images/dice1.png";
-    } else if (playerOne === 2) {
-        document.getElementById("playerOne").src = "images/dice2.png";
-    } else if (playerOne === 3) {
-        document.getElementById("playerOne").src = "images/dice3.png";
-    } else if (playerOne === 4) {
-        document.getElementById("playerOne").src = "images/dice4.png";
-    } else if (playerOne === 5) {
-        document.getElementById("playerOne").src = "images/dice5.png";
-    } else if (playerOne === 6) {
-        document.getElementById("playerOne").src = "images/dice6.png";
-    }
+    document.getElementById("playerOne").src = `images/dice${playerOne}.png`;
+    document.getElementById("playerTwo").src = `images/dice${playerTwo}.png`;
 
-    if (playerTwo === 1) {
-        document.getElementById("playerTwo").src = "images/dice1.png";
-    } else if (playerTwo === 2) {
-        document.getElementById("playerTwo").src = "images/dice2.png";
-    } else if (playerTwo === 3) {
-        document.getElementById("playerTwo").src = "images/dice3.png";
-    } else if (playerTwo === 4) {
-        document.getElementById("playerTwo").src = "images/dice4.png";
-    } else if (playerTwo === 5) {
-        document.getElementById("playerTwo").src = "images/dice5.png";
-    } else if (playerTwo === 6) {
-        document.getElementById("playerTwo").src = "images/dice6.png";
-    }
-
+    // Show the winner
     if (playerOne > playerTwo) {
         document.getElementById("playerOneH2").innerHTML = "Player One (WIN!!!)";
         document.getElementById("playerTwoH2").innerHTML = "Player Two";
