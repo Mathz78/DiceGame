@@ -19,4 +19,4 @@ To-Do List:
     * [X] - Change the images everytime that the pages reload
     * [X] - Add a Win Flag in the winner player.
 * [X] - Create the footer
-* [ ] - Refactor the code.
+* [X] - Refactor the code.
