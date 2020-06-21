@@ -23,6 +23,10 @@ h2 {
 
 /* Body Section */
 
+#table {
+    height: 100vh;
+}
+
 body {
     background-color: #393e46;
 }

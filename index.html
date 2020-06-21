@@ -13,23 +13,22 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&family=Oxanium:wght@500&family=Piedra&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>The Dice Game</h1>
-        <h2 id="tie">Tie!!</h2>
-        <div class="row gameTable">
-            <div class="col-6 firstPlayer">
-                <h2 id="playerOneH2">Player One</h2>
-                <img src="images/dice6.png" alt="dicePicture" id="playerOne">
+        <div id="table">
+            <h1>The Dice Game</h1>
+            <h2 id="tie">Tie!!</h2>
+            <div class="row gameTable">
+                <div class="col-6 firstPlayer">
+                    <h2 id="playerOneH2">Player One</h2>
+                    <img src="images/dice6.png" alt="dicePicture" id="playerOne">
+                </div>
+                <div class="col-6 secondPlayer">
+                    <h2 id="playerTwoH2">Player Two</h2>
+                    <img src="images/dice6.png" alt="dicePicture" id="playerTwo">
+                </div>
             </div>
-            <div class="col-6 secondPlayer">
-                <h2 id="playerTwoH2">Player Two</h2>
-                <img src="images/dice6.png" alt="dicePicture" id="playerTwo">
-            </div>
-          </div>
 
-          <button class="btn btn-info btn-lg" onclick="playButton();">Click to Play</button>
-        </div>  
-        <div class="footerDiv">
-            
+            <button class="btn btn-info btn-lg" onclick="playButton();">Click to Play</button>
+            </div>
         </div>
         <script src="js/scripts.js"></script>
     </body>
