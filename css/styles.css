@@ -68,3 +68,9 @@ body {
     margin: 0 2% 0 2%;
     text-decoration: none;  
 }
+
+@media (max-height: 600px) {
+    .footerDiv {
+        display: none;
+    }
+}
